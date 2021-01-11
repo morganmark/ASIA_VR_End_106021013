@@ -601,11 +601,20 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -616,32 +625,23 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder.Editor">
-      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder">
-      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/Unity/ASIA_VR_End_106021013/VR_End_106021013/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
