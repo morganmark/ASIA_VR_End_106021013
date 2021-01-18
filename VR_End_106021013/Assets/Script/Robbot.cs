@@ -7,9 +7,11 @@ using UnityEngine.UI;
 public class Robbot : MonoBehaviour
 {
     //public Transform robbot;
+    public GameObject gasObject;
     public GameObject robbotObject;
     public Text scoreText;
     int scoreNum;
+    Vector3 gasPosition = new Vector3(1.3f, 2.1f, 0.5f);
     Vector3 robbot1Position = new Vector3(0f, 0f, 15f);
     Vector3 robbot2Position = new Vector3(-15f, 0f, 0f);
     Vector3 robbot3Position = new Vector3(0f, 0f, -15f);
@@ -44,6 +46,7 @@ public class Robbot : MonoBehaviour
         if(other.tag == "gas")
         {
             print("hurt");
+            gasObject.transform.position = gasPosition;
             int scoreInt = 1;
             scoreNum = scoreNum + scoreInt;
             scoreText.text = "Score:"+scoreNum;

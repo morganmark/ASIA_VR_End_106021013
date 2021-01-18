@@ -36,8 +36,6 @@ ScriptsOnlyBuild:
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
     - Valve.VR.SteamVR_Skeleton_Poser
-    SteamVR_Editor.dll:
-    - Valve.VR.SteamVR_UnitySettingsWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -1403,7 +1401,7 @@ ScriptsOnlyBuild:
     className: trackCam
   - hash:
       serializedVersion: 2
-      Hash: ad32f9fba44cf771777125e16b751dea
+      Hash: c415bf023027c1f4dbfa8103f21defea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Robbot

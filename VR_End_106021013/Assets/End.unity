@@ -1124,6 +1124,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1123723873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8187729469004239624, guid: 53aad40f8509ee447aae92bb44ed025b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8187729468436298966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1334144255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6601,6 +6607,16 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1588919608}
+    - target: {fileID: 8825462544647148604, guid: 78d51e33ef7f94f499ef25e8dd4900ce,
+        type: 3}
+      propertyPath: gasObject
+      value: 
+      objectReference: {fileID: 1123723873}
+    - target: {fileID: 8825462544647148604, guid: 78d51e33ef7f94f499ef25e8dd4900ce,
+        type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78d51e33ef7f94f499ef25e8dd4900ce, type: 3}
 --- !u!4 &7814502684495395218
@@ -6689,17 +6705,17 @@ PrefabInstance:
     - target: {fileID: 8187729469003882402, guid: 53aad40f8509ee447aae92bb44ed025b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.163
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 8187729469003882402, guid: 53aad40f8509ee447aae92bb44ed025b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.12
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 8187729469003882402, guid: 53aad40f8509ee447aae92bb44ed025b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.048
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8187729469003882402, guid: 53aad40f8509ee447aae92bb44ed025b,
         type: 3}
@@ -6936,6 +6952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1434242b6d9e8d040be21997298fe172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gasObject: {fileID: 0}
   robbotObject: {fileID: 8296172669107306598}
   scoreText: {fileID: 0}
   target: {fileID: 1000153753}
