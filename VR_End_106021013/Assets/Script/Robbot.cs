@@ -2,12 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Robbot : MonoBehaviour
 {
-    public Transform robbot;
-    float left = 0.0f;
-    float right = 0.0f;
+    //public Transform robbot;
+    public GameObject robbotObject;
+    public Text scoreText;
+    int scoreNum;
+    Vector3 robbot1Position = new Vector3(0f, 0f, 15f);
+    Vector3 robbot2Position = new Vector3(-15f, 0f, 0f);
+    Vector3 robbot3Position = new Vector3(0f, 0f, -15f);
+    Vector3 robbot4Position = new Vector3(15f, 0f, 0f);
+
+    //float left = 0.0f;
+    //float right = 0.0f;
     public Transform target;
     public float speed = 2.00f;
 
@@ -32,10 +41,32 @@ public class Robbot : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.name == "gas")
+        if(other.tag == "gas")
         {
             print("hurt");
-            SceneManager.LoadScene("End");
+            int scoreInt = 1;
+            scoreNum = scoreNum + scoreInt;
+            scoreText.text = "Score:"+scoreNum;
+            int n = Random.Range(1, 5);
+            if (n==1)
+            {
+                robbotObject.transform.position = robbot1Position;
+            }
+            else if (n==2)
+            {
+                robbotObject.transform.position = robbot2Position;
+            }
+            else if (n == 3)
+            {
+                robbotObject.transform.position = robbot3Position;
+            }
+            else
+            {
+                robbotObject.transform.position = robbot4Position;
+            }
+            //robbotObject.transform.position = robbot4Position;
+            //StartCoroutine("RespwanRobbot");
+            //SceneManager.LoadScene("End");
         }
 
         if(other.name == "Finish")
@@ -44,4 +75,11 @@ public class Robbot : MonoBehaviour
             Application.Quit();
         }
     }
+    //IEnumerator RespwanRobbot()
+    //{
+        //Destroy(robbotObject.gameObject);
+        //robbotObject = (GameObject)Instantiate(robbotObject, robbot1Position, Quaternion.identity);
+        
+        //yield return null;
+    //}
 }
